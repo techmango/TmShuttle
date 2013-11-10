@@ -1,0 +1,6 @@
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\bin\Debug\License.html
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\bin\Debug\BorderLabel.dll
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\bin\Debug\BorderLabel.pdb
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\obj\Debug\ResolveAssemblyReference.cache
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\obj\Debug\BorderLabel.dll
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\obj\Debug\BorderLabel.pdb

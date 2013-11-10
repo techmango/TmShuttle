@@ -1,0 +1,6 @@
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\bin\Release\License.html
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\bin\Release\Shadow.dll
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\bin\Release\Shadow.pdb
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\obj\Release\ResolveAssemblyReference.cache
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\obj\Release\Shadow.dll
+E:\My Documents\Visual Studio 2010\Projects\TmShuttle\BorderLabel\obj\Release\Shadow.pdb

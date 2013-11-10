@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F734D01B-D89D-48C2-968C-1A3CF520BB9A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TmShuttle</RootNamespace>
+    <AssemblyName>TmShuttle</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Design">
+      <HintPath>F:\ReferenceAssemblies\ComponentFactory.Krypton.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Navigator, Version=4.3.1.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\ReferenceAssemblies\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A101.cs" />
+    <Compile Include="APIClass.cs" />
+    <Compile Include="ClassesModel.cs" />
+    <Compile Include="ClassesDAL.cs" />
+    <Compile Include="ExtendedControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrmAutoMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutoMode.Designer.cs">
+      <DependentUpon>FrmAutoMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbHelper.cs" />
+    <Compile Include="FrmClassGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClassGrade.Designer.cs">
+      <DependentUpon>FrmClassGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditClasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditClasses.Designer.cs">
+      <DependentUpon>FrmEditClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditRingBell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditRingBell.Designer.cs">
+      <DependentUpon>FrmEditRingBell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGlobalConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGlobalConfig.Designer.cs">
+      <DependentUpon>FrmGlobalConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IniConfig.cs" />
+    <Compile Include="FrmMannualMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMannualMode.Designer.cs">
+      <DependentUpon>FrmMannualMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MP3.cs" />
+    <Compile Include="NotificationManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RingBellDAL.cs" />
+    <Compile Include="RingBellModel.cs" />
+    <EmbeddedResource Include="FrmAutoMode.resx">
+      <DependentUpon>FrmAutoMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClassGrade.resx">
+      <DependentUpon>FrmClassGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditClasses.resx">
+      <DependentUpon>FrmEditClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditRingBell.resx">
+      <DependentUpon>FrmEditRingBell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGlobalConfig.resx">
+      <DependentUpon>FrmGlobalConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMannualMode.resx">
+      <DependentUpon>FrmMannualMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BorderLabel\ShadowLabel.csproj">
+      <Project>{A8F3D10F-DCE3-4EF5-B352-14AF048212BC}</Project>
+      <Name>ShadowLabel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
